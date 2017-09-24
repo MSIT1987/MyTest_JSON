@@ -92,20 +92,25 @@ dependencies {
     // MaterialProgressBar
     compile 'me.zhanghai.android.materialprogressbar:library:1.4.1'
 
-
     // Android Easing Functions
     compile 'com.daimajia.easing:library:2.0@aar'
 
     // OkHttp
-//    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
 
     // OneSignal
     //compile 'com.onesignal:OneSignal:[3.5.3,4.0.0)'
     //compile 'com.kyleduo.switchbutton:library:1.4.6'
-//    compile 'info.hoang8f:android-segmented:1.0.6'
-    compile 'com.google.code.gson:gson:2.7'
-    compile 'com.squareup.retrofit2:retrofit:2.0.2'
-    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'info.hoang8f:android-segmented:1.0.6'
 
-
+    // retrofit, gson
+//    compile 'com.google.code.gson:gson:2.7'
+//    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+//    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'io.reactivex:rxjava:1.0.14'
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta1'
+    compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta1'
+    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta1'
 }
+
